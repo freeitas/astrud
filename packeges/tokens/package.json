@@ -1,0 +1,25 @@
+{
+  "name": "@astrud-ui/tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^5.4.2"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts",
+  "devDependencies": {
+    "tsup": "^8.0.2"
+  }
+}
